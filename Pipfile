@@ -9,6 +9,8 @@ beautifulsoup4 = "*"
 google-generativeai = "*"
 fastapi = {extras = ["standard"], version = "*"}
 python-multipart = "*"
+uvicore = "*"
+uvicorn = "*"
 
 [dev-packages]
 

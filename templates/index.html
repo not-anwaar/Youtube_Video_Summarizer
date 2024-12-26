@@ -63,9 +63,14 @@
                 </div>
             </div>
         </fieldset>
+        <input type="checkbox" id="transcript" name="transcript">
+        <label for="transcript"> Show Transcript As Well </label>
+        <br> <br>
         <button type="submit" class="btn btn-primary">Get Transcript</button>
     </form>
 
+    {{ transcript }}
+    <br> <br>
     {{ summary }}
 </body>
 </html>
